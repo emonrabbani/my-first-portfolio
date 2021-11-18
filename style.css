@@ -1,0 +1,77 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 500px;
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+.first-section-bg{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.first-section{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.first-section img{
+    width: 100%;
+
+}
+.first-section p{
+    color: gray;
+    text-align: justify;
+}
+
+.first-section button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(250, 144, 6, 0.863);
+    font-weight: bold;
+    border-color: rgba(250, 144, 6, 0.863);
+    border-style: none;
+    border-radius: 5px;
+}
+.first-section button a{
+    text-decoration: none;
+    color: white;
+}
+.second-section{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.second-section img{
+    width: 100%;
+
+}
+.second-section p{
+    color: gray;
+    text-align: justify;
+}
+
+.second-section button{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(250, 144, 6, 0.863);
+    color: white;
+    font-weight: bold;
+    border-color: rgba(250, 144, 6, 0.863);
+    border-style: none;
+    border-radius: ;
+}
+.second-section-bg{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+}
