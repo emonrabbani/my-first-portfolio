@@ -51,6 +51,7 @@ h1{
     float: left;
     margin-left: 5%;
     padding: 2%;
+   
 }
 .second-section img{
     width: 100%;
@@ -69,9 +70,48 @@ h1{
     font-weight: bold;
     border-color: rgba(250, 144, 6, 0.863);
     border-style: none;
-    border-radius: ;
+    border-radius: 5px;
 }
 .second-section-bg{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.third-section-bg{
+    margin-top: 170px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.third-section-bg .third-section{
+    width: 40%;
+    height: 70%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+}
+.third-section-bg .third-section h3{
+    color: orange;
+}
+.third-section-bg .third-section p{
+    text-align: justify;
+}
+#section3-helf-1{
+    border-left: 8px solid;
+    border-image: linear-gradient(to bottom, tomato,rgb(255, 167, 133));
+    border-image-slice: 1;
+}
+#section3-helf-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(to bottom, rgb(29, 15, 216), rgb(40, 190, 236) );
+    border-image-slice: 1;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: black;
 }
